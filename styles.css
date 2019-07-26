@@ -2,6 +2,23 @@
 
 
 
+.grid-container{
+  width: 400px;
+}
+
+.square{
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.square .value{
+  text-align: center;
+  transform: translateY(60%);
+  font-size: 30px;
+}
 
 
 
